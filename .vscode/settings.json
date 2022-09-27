@@ -1,4 +1,5 @@
 {
+  "python.defaultInterpreterPath": "/Users/mzc02-psw/Library/Caches/pypoetry/virtualenvs/airbnb-clone-backend-FCxV_byU-py3.10/bin/python",
   "python.linting.flake8Enabled": true,
   "python.linting.pylintEnabled": false,
   "python.linting.enabled": true,
