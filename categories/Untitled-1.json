@@ -5,10 +5,10 @@
   "price": 1000,
   "rooms": 2,
   "toilets": 2,
-  "category": { "name": "lalala", "kind": "asdlsadlasdl" },
-  "amenities": [{ "name": "lalala", "description": "lalala" }],
   "description": "DRF is great!",
   "address": "123",
   "pet_friendly": true,
+  "category": 2,
+  "amenities": [1, 2, 3],
   "kind": "private_room"
 }
