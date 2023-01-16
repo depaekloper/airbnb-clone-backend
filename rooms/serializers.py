@@ -25,6 +25,10 @@ class RoomDetailSerializer(ModelSerializer):
         model = Room
         fields = "__all__"
 
+    # def create(self, validated_data):
+    #     print(validated_data)
+    #     return
+
 
 class RoomListSerializer(ModelSerializer):
     class Meta:
