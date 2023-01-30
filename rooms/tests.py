@@ -108,3 +108,13 @@ class TestAmenity(APITestCase):
             data["description"],
             self.DESC,
         )
+
+    def test_put_amenity(self):
+        # your code challenge
+        pass
+
+    def test_delete_amenity(self):
+
+        response = self.client.delete("/api/v1/rooms/amenities/1")
+
+        self.assertEqual(response.status_code, 204)
